@@ -1,0 +1,595 @@
+body {
+	font-family: 'Abel';
+	font-size: 22px;
+}
+
+/*header section styling start*/
+
+.navbar-default {
+	background-color: #fff;
+	border-color: #fff;
+	padding: 20px 0px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+	color: #69BE56;
+	background-color: #fff;
+}
+
+.navbar-default a img {
+	width: 78%;
+	margin-top: -20%;
+	margin-bottom: -20%;
+}
+
+.navbar-nav {
+	padding-top: 5px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+	color: black;
+	border-bottom: 5px solid #69BE56;
+	outline: none;
+}
+
+.navbar {
+	min-height: inherit;
+	margin-bottom: 0px;
+}
+
+.navbar-brand {
+	height: inherit;
+	font-family: 'Josefin Slab', serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 5px;
+	font-size: 30px;
+	margin-top: 5px;
+}
+
+.navbar-default .navbar-brand {
+	color: #69BE56;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #69BE56;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin: 0px 10px;
+	padding-bottom: 5px;
+	font-size: 14px;
+	transition: 0.3s ease-in-out;
+}
+
+.navbar-default .navbar-nav > a {
+	transition: 0.3s ease-in-out;
+}
+
+.navbar-default .navbar-nav > .active > li > a {
+	color: black;
+}
+
+.nav > li > a {
+	padding: 0px;
+}
+
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+	margin-left: 0px;
+}
+
+.navbar-right {
+	margin-right: 0px;
+}
+
+/*headerorm section styling end*/
+
+/*home main section styling start*/
+
+.img-parent-div {
+	margin-top: 6%;
+}
+
+.home-bg {
+
+	width: 100%;
+	height: 600px;
+	background-image: url('../images/bg2.jpeg');
+	background-size: 100% 100%;
+
+}
+
+.home-bg img {
+
+	padding-top: 70px;
+	margin-left: -50px;
+
+}
+
+
+
+/*form styling start*/
+
+form {
+
+	width: 90%;
+	margin: 10px auto;
+	margin-bottom: 6%;
+	margin-top: 12%;
+	background: white;
+}
+
+.form-body {
+	padding: 0px 30px 30px 10px;
+}
+
+
+
+.form-header {
+
+	background: #69BE56;
+	padding-bottom: 0px;
+	color: white;
+	text-align: center;
+	padding: 1px;
+	margin-bottom: 10px;
+}
+
+h1 {
+	margin: 15px 0 30px 0;
+	text-align: center;
+	color: white;
+
+}
+
+.textbox-left {
+	padding-right: 1px;
+}
+
+
+
+
+/*Radio box*/
+
+input[type="radio"] + .label-text:before {
+	content: "\f10c";
+	font-family: "FontAwesome";
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	width: 1em;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+input[type="radio"]:checked + .label-text:before {
+	content: "\f192";
+	color: #69BE56;
+	animation: effect 250ms ease-in;
+}
+
+input[type="radio"] {
+	position: absolute;
+	right: 9000px;
+}
+
+input[type="radio"]:disabled + .label-text {
+	color: #aaa;
+}
+
+input[type="radio"]:disabled + .label-text:before {
+	content: "\f111";
+	color: #ccc;
+}
+
+
+
+
+label {
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.textbox-right {
+	padding-left: 1px;
+}
+
+input[type="password"],
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+	background: rgba(255, 255, 255, 0.1);
+	padding: 5px 10px;
+	border: none;
+	font-size: 16px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	width: 100%;
+	background: white;
+	border: 1px solid lightgrey;
+	color: black;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+	margin-bottom: 15px;
+}
+
+
+.submit-btn {
+	padding: 10px 15px;
+	transition: 0.3s ease-in-out;
+	background: #ffffff;
+	margin-top: 15px;
+	border-color: #69BE56;
+	color: #69BE56;
+	border-radius: 0px;
+}
+
+.submit-btn:hover {
+	background-color: #69BE56;
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+
+/*home main section styling end*/
+
+/*karriere main section styling start*/
+
+.karriere-bg {
+
+	width: 100%;
+	height: 300px;
+	background-image: url('../images/bg2.jpeg');
+	background-size: 100% 100%;
+	text-align: center;
+
+}
+
+.karriere-bg h1 {
+	color: #69BE56;
+	padding-top: 15vh;
+}
+
+.karriere-bg p {
+	color: white;
+}
+
+.karriere-text {
+	text-align: center;
+	color: black;
+	padding: 15vh 0;
+}
+
+.karriere-text h1 {
+	color: grey;
+}
+
+hr {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #69BE56;
+}
+
+.kerriere-btn {
+	padding: 6px 10px;
+	transition: 0.3s ease-in-out;
+	background: #69BE56;
+	margin-top: 15px;
+	border-color: #ffffff;
+	color: #ffffff;
+	border-radius: 0px;
+}
+
+.kerriere-btn:hover {
+	background-color: #ffffff;
+	color: #69BE56;
+	border-color: #69BE56;
+}
+
+.kerriere-btn i {
+	margin-right: 6px;
+
+}
+
+/*karriere main section styling end*/
+
+/*kontakt main section styling start*/
+
+.kontakt-bg {
+	width: 100%;
+	height: 300px;
+	background-image: url('../images/bg2.jpeg');
+	background-size: 100% 100%;
+	text-align: center;
+}
+
+.kontakt-bg h1 {
+	color: #69BE56;
+	padding-top: 15vh;
+}
+
+.kontakt-bg p {
+	color: white;
+}
+
+#kontakt-name {
+	margin-left: -9px;
+	width: 104%
+}
+
+#kontakt-vorname {
+	width: 113%;
+}
+
+#kontakt-email {
+	margin-left: -9px;
+	width: 104%
+}
+
+#kontakt-fone {
+	width: 113%;
+}
+
+#kontakt-message {
+	margin-left: -9px;
+	width: 109%;
+}
+
+.Kontakt-btn {
+	padding: 6px 10px;
+	transition: 0.3s ease-in-out;
+	background: #ffffff;
+	margin-top: 15px;
+	border-color: #69BE56;
+	color: #69BE56;
+	border-radius: 0px;
+}
+
+.Kontakt-btn:hover {
+	background-color: #69BE56;
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+.kontakt-form {
+	padding: 10vh 0;
+}
+
+/*kaontakt main section styling end*/
+
+/*ber main section styling start*/
+
+.ber-bg {
+
+	width: 100%;
+	height: 300px;
+	background-image: url('../images/bg2.jpeg');
+	background-size: 100% 100%;
+	text-align: center;
+
+}
+
+.ber-bg h1 {
+	color: #69BE56;
+	padding-top: 15vh;
+}
+
+.ber-bg p {
+	color: white;
+}
+
+.ber-text {
+	text-align: center;
+	color: black;
+	padding: 15vh 0;
+}
+
+.ber-text h1 {
+	color: grey;
+	padding-left: 30px;
+	margin-bottom: 0;
+}
+
+.ber-text p {
+	padding-left: 30px;
+}
+
+hr {
+	margin-top: 5px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #69BE56;
+}
+
+
+/*ber main section styling end*/
+
+/*footer section styling start*/
+
+.footer {
+	background-color: #69BE56;
+	color: white;
+	padding: 40px 22px;
+}
+
+.footer-link {
+	font-size: 20px;
+	color: white;
+	font-weight: 700;
+}
+
+.footer-link:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.footer-link:focus {
+	color: white;
+	text-decoration: none;
+}
+
+.social-network {
+	list-style: none;
+}
+
+.social-network li a {
+	color: white;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+/*footer section styling end*/
+
+/*media queries*/
+
+@media (max-width: 767px) {
+	/*header section*/
+	.navbar-default a img {
+		margin-top: -30%;
+	}
+
+	.navbar > .container .navbar-brand,
+	.navbar > .container-fluid .navbar-brand {
+		margin-left: -50px;
+	}
+
+	.navbar-brand {
+		font-size: 19px;
+	}
+
+	.navbar-default {
+		padding: 20px 0px;
+	}
+
+	/*form section*/
+	.img-parent-div {
+		padding-top: 5%;
+	}
+
+	.home-bg img {
+		padding-top: 120px;
+		width: 100%;
+	}
+
+	.home-bg {
+		height: 1160px;
+	}
+
+	form {
+		width: 100%;
+	}
+
+	.karriere-bg {
+		height: 400px;
+	}
+
+	.ber-bg {
+		height: 400px;
+	}
+
+	.ber-bg h1 {
+		padding-top: 15vh;
+	}
+
+	.ber-text h1 {
+		text-align: center !important;
+	}
+
+	.ber-text p {
+		text-align: center !important;
+	}
+
+	.textbox-left {
+		padding-right: 15px;
+	}
+
+	.textbox-right {
+		padding-left: 15px;
+	}
+
+	#kontakt-name {
+		width: 114%;
+	}
+
+	#kontakt-vorname {
+		width: 114%;
+		margin-left: -9px;
+	}
+	#kontakt-email {
+		width: 114%;
+	}
+	#kontakt-fone {
+		margin-left: -9px;
+		width: 114%;
+	}
+
+	#kontakt-message {
+		width: 114%;
+	}
+
+	.kontakt-bg {
+		height: 400px;
+	}
+
+	.kontakt-bg h1 {
+		padding-top: 15vh;
+	}
+
+	.karriere-bg h1 {
+		padding-top: 15vh;
+	}
+
+	.storm-btn {}
+	.gas-btn {
+		margin-left: -12px;
+	}
+	.privat-btn {
+		margin-left: -2px;
+	}
+	.gewerbe-btn {
+		margin-left: 15px;
+	}
+
+	.col-xs-12 {
+		text-align: center;
+	}
+
+}
+
+@media screen and (max-width: 768px) and (min-width: 768px) {
+	#kontakt-vorname {
+		width: 104%;
+		margin-left: 5px;
+	}
+
+	#kontakt-fone {
+		width: 104%;
+		margin-left: 5px;
+	}
+
+	#kontakt-message {
+		width: 106.5%;
+	}
+}
+
+@media screen and (max-width: 991px) and (min-width: 769px) {
+
+	.home-bg {
+		height: 250vh;
+	}
+
+}
